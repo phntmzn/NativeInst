@@ -22,7 +22,7 @@ def main():
 
     try:
         with mido.open_output(port_name) as outport:
-            midi_folder = "/Users/macbookair/Documents/mid/aestheticspls"
+            midi_folder = "/Users/User/Documents/mid/aestheticspls"
             if not os.path.isdir(midi_folder):
                 print(f"Folder '{midi_folder}' does not exist.")
                 return
